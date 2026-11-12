@@ -9,7 +9,7 @@
     "ip": "aega.aternos.me",
     "port": 15321,
     "version": "1.20.4",
-    "try-creative": false
+    "try-creative": true
   },
   "position": {
     "enabled": true,
@@ -29,10 +29,10 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 1200,
       "messages": [
-        "Привет",
-        "Наш дискорд https://discord.gg/Yap5xz6gux",
+        "|discord.gg/Yap5xz6gux|",
+        "https://discord.gg/Yap5xz6gux",
         "discord.gg/Yap5xz6gux"
       ]
     },
