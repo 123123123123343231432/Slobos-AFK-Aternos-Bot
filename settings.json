@@ -1,14 +1,14 @@
 {
-  "name": "AFK Bot",
+  "name": "aega",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "Aegis Bot",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "aega.aternos.me",
+    "port": 15321,
+    "version": "26.1",
     "try-creative": false
   },
   "position": {
@@ -31,9 +31,9 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "Привет",
+        "Наш дискорд https://discord.gg/Yap5xz6gux",
+        "discord.gg/Yap5xz6gux"
       ]
     },
     "chat-log": true,
