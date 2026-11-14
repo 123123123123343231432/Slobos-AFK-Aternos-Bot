@@ -24,6 +24,7 @@ let botState = {
   startTime: Date.now(),
   errors: [],
   wasThrottled: false,
+  pausedBySmartAfk: false,
 };
 
 // Health check endpoint for monitoring
