@@ -1226,6 +1226,10 @@ function createBot() {
 
     bot.loadPlugin(pathfinder);
 
+    if (config["smart-afk"]?.enabled) {
+      setupSmartOnlineAfk(bot, createBot, config, botState, addLog);
+    }
+
     // FIX: connection timeout - end the old bot before reconnecting to avoid ghost bots
     clearBotTimeouts();
     connectionTimeoutId = setTimeout(() => {
