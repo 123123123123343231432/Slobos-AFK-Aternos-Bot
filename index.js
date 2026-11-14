@@ -1373,6 +1373,10 @@ function createBot() {
 }
 
 function scheduleReconnect() {
+  if (botState.pausedBySmartAfk) {
+    return;
+  }
+
   clearBotTimeouts();
 
   // FIX: don't stack reconnect if already waiting
