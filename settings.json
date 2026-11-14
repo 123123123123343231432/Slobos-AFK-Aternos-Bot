@@ -82,5 +82,12 @@
   },
   "chat": {
     "respond": true
+ },
+  "smart-afk": {
+    "enabled": true,
+    "leave-above-online": 1,
+    "rejoin-at-online": 0,
+    "ping-interval-min": 10000,
+    "ping-interval-max": 20000
   }
 }
